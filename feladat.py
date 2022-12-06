@@ -19,18 +19,18 @@ print(lorem)
   
 #4 feladat
 
-szamok = []
-betu = []
+Lszamok = []
+Lbetu = []
 
 for b in szoveg:
     if (b.isalpha()):
-        betu.append(b)
+        Lbetu.append(b)
     elif (b.isalnum()):
-        szamok.append(int(b))    
+        Lszamok.append(int(b))    
 
-print("számok",szamok)
+print("számok",Lszamok)
 print("szövegben ennyi karakter van: ",len(szoveg),"szóközel")
-print("szövegben ennyi karakter van: ",len(betu),"szóköz nélkül")
+print("szövegben ennyi karakter van: ",len(Lbetu),"szóköz nélkül")
 
 #5 feladat
 
